@@ -8,18 +8,6 @@ namespace Trabalho1.ClubeDaLeitura
 {
     internal class Program
     {
-        /*O que falta:
-            Tela do Empréstimo
-            Ajeitar Visualizar do Empréstimo
-            Perguntar se é necessária a remoção uma de revista que utilize uma caixa caso a caixa seja removida
-            Se sim, implementar a mesma operação para o Empréstimo envolvendo o amigo e a revista
-            (Isso seria complicado pois acarretaria na exclusão do empréstimo se a caixa utilizada pela revista emprestada fosse removida)
-            Fazer ajustes finais e se estiver com tempo tratamento de erro
-            Por último parar de reclamar que é muito difícil, realmente ficou mais fácil de trabalhar a interface assim após todas as classes terem sido criadas
-        */
-
-        //Conferir se a caixa tem revista, se sim ele não pode excluir
-
 
         public static int MenuPrincipal(TelaCaixa tc, TelaRevista tr, TelaAmigo ta ,TelaEmprestimo te)
         {

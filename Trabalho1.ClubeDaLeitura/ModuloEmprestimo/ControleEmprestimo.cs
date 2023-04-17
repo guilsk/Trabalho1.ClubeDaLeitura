@@ -35,7 +35,9 @@ namespace Trabalho1.ClubeDaLeitura.ModuloEmprestimo
         public void RealizarEmprestimo()
         {
             Emprestimo emprestimo = new Emprestimo();
+
             emprestimo.id = contadorEmprestimos;
+
             listaAmigos.VisualizarAmigo();
             Console.WriteLine("Informe o id do amigo:");
             int idAmigo = Convert.ToInt32(Console.ReadLine());
